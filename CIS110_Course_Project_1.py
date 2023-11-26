@@ -64,8 +64,8 @@ elif jumpIntoPond == "no" and attackTheCoyote == "no":
     print(f"{dogName} cant believe the day he's had. From the coyotes to the snapping turtles in the {pond}. ")
 else:
     print(f"\nAfter spending the day protecting his flock {dogName} sees something shiny, and wonders if it's from {city}.  ")
-    print(f"{dogName}  sees that the farmer is his friend and has gotten him a brand new collar with gps.  ")
+    print(f"{dogName}  sees that the farmer friend and has gotten him a brand new collar with gps.  ")
     print(f"{dogName} loves to play in {pond} but he also knows the dangers that lurk around every corner.  ")
     print(f"{number} of sheep depend on the obseervance and senses that {dogName} needs to survive and protect the farm where the {pond} resides.  ")
-print("\nThe End")
+print("\nThank you for reading and playing along...The End")
          
