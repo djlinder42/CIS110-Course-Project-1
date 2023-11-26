@@ -19,21 +19,19 @@ while not number.isdigit():
     number = imput(f"Value is not recognizd. Please enter a numeric value:  ")
     
 print(f"\nLET'S GO!!!!!")
-print(f"\nOnce upon a time there was a {breed} farmdog that was named {dogName}.  ")
+print(f"\nOnce upon a time there was a {breed} farm dog that was named {dogName}.  ")
 print(f"{dogName} was rounding up the sheep before he leaves for {city}.  ")
 print(f"{dogName} loves to swim, and he feels like today he may have have the chance.  ")
 print(f"{dogName} turns toward the pond and runs as fast and as hard as he can.  ")
 print(f"While running as fast as he can, {dogName} finally arrives at {pond}. Before jumping in though, he begin's to think.  ")
 jumpIntoPond = input(f"\nShould {dogName} jump into {pond}? Type yes or no:  ")
-while jumpIntoPond.lower() != "yes" and jumpIntoPond.lower() != "no":
-    jumpIntoPond = input("Please type yes or no:  ")
 if jumpIntoPond == "yes":
     print(f"\n{dogName} jumps into {pond} splashing and having a great time!  ")
     print(f"When the coyotes notice {dogName} playing and paying no attention to his flock of sheep.  ")
     print(f"They creep in slowly as to not arouse suspicion.  ")
     print(f"Oblivious to the approaching danger, {dogName} gets out of the water accidently falling asleep.  ")
     print(f"{dogName} falls into a deep sleep as the coyote gets closer andd closer.  ")
-    print(f"Luckily {dogName} opens his eyes with no time to spare, narrowly escaping unharmed.  ")
+    print(f"Luckily {dogName} opens his eyes with no time to spare, smelling a coyote {number} feet away.  ")
 else:
     print(f"\n{dogName} decides that it's just to risky to play in the water with hidden danger around every corner.  ")
     print(f"Being a responsible {breed}. {dogName} decides to do a quick scan of the area, when he spots movement in the bushes.  ")
@@ -57,17 +55,17 @@ else:
 if jumpIntoPond == "yes" and attackTheCoyote == "yes":
     print(f"After spending the day protecting his flock {dogName} sneaks into the {pond} watering hole.  ")
     print(f"{dogName} is bitten by a snapping turtle.  ")
-    print(f"Luckily {dogName} yelled for all {number} of his sheep to stampeed the water.  ")
-    print(f"All {number} sheep come to the rescue of {dogName}.  ")
+    print(f"Luckily, in a twist of fate! {dogName} yelled for all {number} of his sheep to stampeed the water.  ")
+    print(f"All {number} sheep come to the rescue of {dogName}, saving him and the day.  ")
 elif jumpIntoPond == "no" and attackTheCoyote == "no":
     print(f"After spending all day protecting his flock {dogName} has also gotten to play in {pond}.  ")
     print(f"Luckily {number} of sheep in his flock was able to scare the turtle off of his tail.   ")
     print(f"{dogName} decides he has had enough for one day and decides to turn in before glancing at {pond} once more before bed.  ")
-    print(f"{dogname} cant believe the day he's had. From the coyotes to the snapping turtles in the {pond}  ")
+    print(f"{dogName} cant believe the day he's had. From the coyotes to the snapping turtles in the {pond}. ")
 else:
     print(f"\nAfter spending the day protecting his flock {dogName} sees something shiny, and wonders if it's from {city}.  ")
-    print(f"{dogName} farmer friend has gotten him a brand new collar with gps.  ")
+    print(f"{dogName}  sees that the farmer is his friend and has gotten him a brand new collar with gps.  ")
     print(f"{dogName} loves to play in {pond} but he also knows the dangers that lurk around every corner.  ")
-    print(f"{number} of sheep depend on the vidualance of {dogName} to survive.  ")
+    print(f"{number} of sheep depend on the obseervance and senses that {dogName} needs to survive and protect the farm where the {pond} resides.  ")
 print("\nThe End")
          
