@@ -69,5 +69,7 @@ else:
     print(f"{dogName}  sees that the farmer friend and has gotten him a brand new collar with gps.  ")
     print(f"{dogName} loves to play in {pond} but he also knows the dangers that lurk around every corner.  ")
     print(f"{number} of sheep depend on the obseervance and senses that {dogName} needs to survive and protect the farm where the {pond} resides.  ")
-print("\nThank you for reading and playing along...The End")
+keepPlaying = input(f"\nWould you like to contiue playing? Enter yes or no:  ")
+while keepPlaying.lower() != "yes" and keepPlaying.lower() != "no":
+    keepPlaying = input(f"Please type yes or no:  ")
          
