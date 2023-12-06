@@ -25,6 +25,8 @@ print(f"{dogName} loves to swim, and he feels like today he may have have the ch
 print(f"{dogName} turns toward the pond and runs as fast and as hard as he can.  ")
 print(f"While running as fast as he can, {dogName} finally arrives at {pond}. Before jumping in though, he begin's to think.  ")
 jumpIntoPond = input(f"\nShould {dogName} jump into {pond}? Type yes or no:  ")
+while jumpIntoPond.lower() != "yes" and jumpIntoPond.lower() != "no":
+    jumpIntoPond = input(f"Please type yes or no:  ")
 if jumpIntoPond == "yes":
     print(f"\n{dogName} jumps into {pond} splashing and having a great time!  ")
     print(f"When the coyotes notice {dogName} playing and paying no attention to his flock of sheep.  ")
